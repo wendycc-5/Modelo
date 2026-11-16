@@ -1,0 +1,174 @@
+﻿.e02_cabecera
+{
+	position:relative;
+	width:951px;
+	height:175px;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+.e02_cabeceraIzq
+{
+	position:relative;
+	float:left;
+	width:144px;
+	height:111px;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+.e02_cabeceraDer
+{
+	position:relative;
+	float:right;
+	width:804px;
+	height:111px;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+    background-color:#fff;
+    color:#959797;
+    text-align:left;
+	line-height:20px;
+}
+.e02_cabeceraArriba
+{
+	position:relative;
+	float:right;
+	width:764px;
+	height:15px;
+	left:0px;
+	padding:0px;
+	margin:0px auto 0px auto;
+    background-color:#fff;
+    color:#959797;
+    text-align:left;
+	line-height:20px;
+	border:1px 
+}
+.e02_menu
+{
+	position:absolute;
+	width:950px;
+	height:25px;
+	top:150px;
+	left:0px;
+	padding:0px;
+	margin:0px auto 0px auto;
+	line-height:17px;
+        
+}
+
+.e02_menu ul { 
+	list-style: none;
+	margin: 0px auto 0px auto;
+	padding: 0;
+	width:950px;
+}
+.e02_menu li {
+	float: left;
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	width:135px;
+	text-align:center;
+	top:5px;
+	font-size:0.9em; 
+}
+.e02_menu li.e02_menuSeleccionado {
+	float: left;
+	margin: 0;
+	padding:0px;
+	position: relative;
+	width:138px;
+	text-align:center;
+	top:0px;
+	background-color:#fff;
+	color:#000;
+	height:25px;
+	line-height:28px;
+
+}
+
+.e02_menu li.e02_menuSeleccionado2 {
+	float: left;
+	margin: 0;
+	padding:0px;
+	position: relative;
+	width:137px;
+	text-align:center;
+	top:0px;
+	background-color:#b3b1b2;
+	height:25px;
+	line-height:28px;
+}
+
+.e02_menu li.e02_menuInfo {
+	float: left;
+	margin: 0;
+	padding:0px;
+	position: relative;
+	width:137px;
+	text-align:center;
+	top:0px;
+	background-color:#fff;
+	color:#000;
+	height:25px;
+	line-height:28px;
+}
+
+.e02_menuSeparador
+{
+
+    list-style:none;
+    height:25px;
+    margin:0px; 
+    padding:0px;
+    top:0px;
+    width:1px;
+}
+
+.e02_lnkMenu
+{
+	color:#959797;
+	text-decoration:none;
+	line-height:1.1em;
+	font-size:1em;
+	font-weight:bold;
+}
+.e02_lnkMenu:hover
+{
+	color:#909090;
+	text-decoration:none;
+}
+.e02_lnkMenuSup
+{
+	color:#959797;
+	text-decoration:underline;
+	line-height:1em;
+	font-size:0.9em;
+	font-weight:normal;
+}
+.e02_lnkMenuSup:hover
+{
+	color:#000;
+	text-decoration:underline;
+}
+.e02_fecha
+{
+	position:relative;
+	width:475px;
+	float:left;
+	height:22px;
+	left:0px;
+	padding:0px;
+	margin:0px;
+	text-align:left;
+	background-color:#8a8889;
+	line-height:20px;
+	color:#f7f7f7;
+	font-size:1.0em;
+}

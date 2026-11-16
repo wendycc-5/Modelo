@@ -1,0 +1,238 @@
+﻿ul.e03_form1Columna
+{
+	list-style: none;
+	padding:0px;
+	margin:0px auto 0px auto;
+}
+ul.e03_form1Columna li 
+{
+	list-style: none;
+	padding:0px;
+	margin:0px;
+	display: inline;
+	float:left;
+	min-height:40px;
+	width:100%;
+	text-align:left;
+}
+/* Campos de formulario */
+.msj
+{  
+	display: inline;
+	font-weight:bold;
+	font-size:1em;
+	color: green;
+	cursor: pointer; 
+}
+label
+{  
+	display: inline;
+	font-weight:bold;
+	font-size:1em;
+	color:#333;
+	cursor: pointer; 
+}
+ul.formCbRb li label{  
+	display: inline;
+	font-weight:bold;
+	color:#666666;
+	cursor: pointer; 
+}
+.cajas_texto
+{
+	background : #fff;
+	color : #273178;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #999999;
+	height:18px;
+	width: 250px;
+	margin:0px;
+	padding:0px;
+}
+select
+{
+	background : #EFEFEF;
+	color : #273178;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #999999;
+	height:20px;
+	width: 100px;
+}
+textarea
+{
+	background : #EFEFEF;
+	color : #273178;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #999999;
+	width: 100%;
+}
+.inputCheckBox input
+{
+	background-color:Transparent;
+	color : #273178;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	width:20px;
+	border:0px;
+	height:15px;
+}
+.inputRadio input
+{
+	background-color:Transparent;
+	color : #273178;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	width:20px;
+	border:0px;
+	height:15px;
+}
+.e03_campoFormulario
+{
+	background : #fff;
+	color : #273178;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #999999;
+	height:18px;
+}
+.e03_campoFormularioFocus
+{
+	background : #ffffcc;
+	color : #115D9B;
+	font : normal 1.2em Tahoma, Verdana, sans-serif;
+	border-top: 1px solid #115D9B;
+	border-bottom: 1px solid #115D9B;
+	border-left: 1px solid #115D9B;
+	border-right: 1px solid #115D9B;
+	height:18px;
+}
+
+.e03_butOff01
+{
+	width:79px;
+	height:34px;
+	border:0px;
+	color: white;
+	font-weight:bolder;
+	z-index:100;
+	line-height:28px;
+}
+.e03_butOn01
+{
+	width:79px;
+	height:34px;
+	border:0px;
+	cursor:pointer;
+	color: white;
+	font-weight:bolder;
+	line-height:28px;
+}
+.e03_butOff02
+{
+	width:87px;
+	height:22px;
+	border:0px;
+	color: #000000;
+	z-index:100;
+	line-height:18px;
+}
+.e03_butOn02
+{
+	width:87px;
+	height:22px;
+	border:0px;
+	cursor:pointer;
+	color: #000000;
+	font-weight:bolder;
+	line-height:18px;
+}
+.e03_butOff03
+{
+	width:76px;
+	height:22px;
+	border:0px;
+	color: #000000;
+	z-index:100;
+	line-height:18px;
+}
+.e03_butOn03
+{
+	width:76px;
+	height:22px;
+	border:0px;
+	cursor:pointer;
+	color: #000000;
+	font-weight:bolder;
+	line-height:18px;
+}
+.e03_butOff04
+{
+	width:110px;
+	height:21px;
+	border:0px;
+	color: #000000;
+	z-index:100;
+	line-height:18px;
+}
+.e03_butOn04
+{
+	width:110px;
+	height:21px;
+	border:0px;
+	cursor:pointer;
+	color: #000000;
+	font-weight:bolder;
+	line-height:18px;
+}
+.e03_linkbutton
+{
+    text-decoration:none;
+    color: white;
+    z-index:100;
+    position:relative;
+    top:-28px; 
+}
+.e03_textoBlanco
+{
+    text-decoration:none;
+    color: white;
+    z-index:100;
+    position:relative;
+    top:12px;
+    font-weight:bold; 
+}
+
+.e03_Paginado
+{
+    text-decoration:none;
+    color:white;
+    z-index:100;
+    position:relative;
+    top:17px;
+}
+
+.e03_cabeceraForm01
+{
+	position:relative;
+	width:100%;
+	top:0px;
+	left:0px;
+	padding:0px 0px 0px 5px;
+	margin:0px auto 0px auto;
+	background-color:#bdbbbc;
+	height:20px;
+	text-align:left;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:20px;
+}

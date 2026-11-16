@@ -1,0 +1,247 @@
+﻿.e02_cabecera
+{
+	position:relative;
+	width:941px;
+	height:195px;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+    border-left:solid 5px #ebeae6;
+    border-right:solid 5px #ebeae6;
+    border-top:solid 5px #ebeae6;
+    border-bottom:solid 5px #ebeae6;
+}
+.e02_cabeceraIzq
+{
+	position:relative;
+	float:left;
+	width:134px;
+	height:111px;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+.e02_cabeceraDer
+{
+	position:relative;
+	float:right;
+	width:804px;
+	height:111px;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+    background-color:#fff;
+    color:#959797;
+    text-align:left;
+	line-height:20px;
+font-family:'Brush Script MT';font-weight: bold; font-size: 96px; text-shadow: 0px 0px 0.1em #000;"
+}
+
+.e02_cabeceraDertitulo
+{
+font-family:'Brush Script MT';font-weight: bold; font-size: 96px; text-shadow: 0px 0px 0.1em #000;"
+}
+.e02_cabeceraArriba
+{
+	position:relative;
+	float:right;
+	width:764px;
+	height:15px;
+	left:0px;
+	padding:0px;
+	margin:0px auto 0px auto;
+    background-color:#006699;
+    color:#959797;
+    text-align:left;
+	line-height:20px;
+	border:1px 
+
+}
+
+#e02_menu {
+	position: relative; z-index: 10;
+/*:#006699;*/
+}
+#e02_menu ul {
+	padding: 0px; margin-left: 6px; float: left;
+}
+#e02_menu ul li {
+	list-style: none; margin: 0px; height: 100%; padding-right: 1px; float: left; position: relative;
+}
+#e02_menu ul li a {/*update 27-dic rgb(255, 255, 255)*/
+	padding: 0px 15px; color:#0016a5; line-height: 46px; font-size: 14px; font-weight: bold; text-decoration: none; display: block; text-shadow: none;
+}
+#e02_menu ul li.active {
+	
+}
+#e02_menu ul li.active a {
+	color: rgb(0, 255, 240); text-shadow: none;
+}
+#e02_menu ul li a:hover {
+	color:  #f36d00; text-shadow: none;
+}
+#e02_menu ul li:hover {
+	
+}
+#e02_menu ul li ul {
+	margin: 0px; padding: 0px; left: -999em; width: 180px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none; position: absolute;
+}
+#e02_menu ul li:hover ul {
+	left: 0px;
+}
+#menu ul li.sfHover ul {
+	left: 0px;
+}
+#e02_menu ul li ul li {
+	margin: 0px auto; padding: 0px; border: 0px currentColor; width: 180px; height: auto; text-align: left;
+}
+#e02_menu ul li ul li:hover ul {
+	left: 180px; top: 0px;
+}
+#e02_menu ul li:hover ul li a {
+	text-shadow: none;
+}
+#e02_menu ul li:hover ul li {
+	
+}
+#e02_menu ul li:hover ul li a {/*update 27-dic rgb(85, 85, 85)*/
+	background: #0016a5; margin: 0px; padding: 0px 0px 0px 10px; border-radius: 0px; height: 24px; color: rgb(209, 209, 209); line-height: 24px; font-size: 12px; font-weight: normal; border-right-color: currentColor; border-bottom-color: rgb(58, 58, 58); border-right-width: 0px; border-bottom-width: 1px; border-right-style: none; border-bottom-style: solid; text-shadow: none; -moz-border-radius: 0px;
+}
+#e02_menu ul li ul li a {
+	background: rgb(85, 85, 85) ; margin: 0px; padding: 0px 0px 0px 10px; border-radius: 0px; height: 24px; color: rgb(209, 209, 209); line-height: 24px; font-size: 12px; font-weight: normal; border-right-color: currentColor; border-bottom-color: rgb(58, 58, 58); border-right-width: 0px; border-bottom-width: 1px; border-right-style: none; border-bottom-style: solid; text-shadow: none; -moz-border-radius: 0px;
+}
+#e02_menu ul li.active ul li a {
+	background: rgb(85, 85, 85); margin: 0px; padding: 0px 0px 0px 10px; border-radius: 0px; height: 24px; color: rgb(209, 209, 209); line-height: 24px; font-size: 12px; font-weight: normal; border-right-color: currentColor; border-bottom-color: rgb(58, 58, 58); border-right-width: 0px; border-bottom-width: 1px; border-right-style: none; border-bottom-style: solid; text-shadow: none; -moz-border-radius: 0px;
+}
+#e02_menu ul li ul li a:hover {/*creado 27-dic13  rgb(31, 140, 216) posicion en menu*/
+	background:#8a8889; padding: 0px 0px 0px 10px; height: 24px; text-align: left; color: rgb(255, 255, 255); line-height: 24px; font-size: 12px; text-shadow: none;
+}/*naranja #f36d00*/
+#e02_menu ul li ul li.active a {
+	background: rgb(31, 140, 216); padding: 0px 0px 0px 10px; height: 24px; text-align: left; color: rgb(255, 255, 255); line-height: 24px; font-size: 12px; text-shadow: none;
+}
+#e02_menu ul li.active ul li a:hover {
+	background: rgb(31, 140, 216); padding: 0px 0px 0px 10px; height: 24px; text-align: left; color: rgb(255, 255, 255); line-height: 24px; font-size: 12px; text-shadow: none;
+}
+#e02_menu ul li.active ul li.active a {
+	background: rgb(31, 140, 216); padding: 0px 0px 0px 10px; height: 24px; text-align: left; color: rgb(255, 255, 255); line-height: 24px; font-size: 12px; text-shadow: none;
+}
+#e02_menu ul li ul ul {
+	left: -999em;
+}
+#e02_menu ul li:hover ul ul {
+	left: -999em;
+}
+#e02_menu ul li:hover ul ul ul {
+	left: -999em;
+}
+#e02_menu ul li:hover ul ul ul ul {
+	left: -999em;
+}
+#e02_menu ul li.sfHover ul ul {
+	left: -999em;
+}
+#e02_menu ul li.sfHover ul ul ul {
+	left: -999em;
+}
+#e02_menu ul li.sfHover ul ul ul ul {
+	left: -999em;
+}
+#e02_menu ul li ul li ul li {
+	margin: 0px auto; padding: 0px; border: currentColor; width: 180px; height: auto; text-align: left;
+}
+img.redondo  {         /*creado 17-jul-2014transparent*/  
+border: 2px solid #006699 ;
+margin: 0;
+padding: 0;
+border-radius: 800px;
+overflow: hidden;
+}
+
+img.icono  {         /*creado 17-jul-2014transparent*/  
+border: 2px solid #8a8889;
+margin: 0;
+padding: 0;
+border-radius: 800px;
+overflow: hidden;
+cursor: pointer;
+}
+
+img.logo  {         /*creado 17-jul-2014transparent*/  
+border: transparent;
+margin: 0;
+padding: 0;
+border-radius: 800px;
+overflow: hidden;
+cursor: pointer;
+}
+
+.e02_sesion
+{
+	position:relative;
+	width:875px;
+	float:left;
+	height:32px;
+	left:0px;
+	padding:0px;
+	margin:1px;
+	text-align:right;
+	background-color:#8a8889;
+	line-height:20px;
+	color:#f7f7f7;
+	font-size:1.0em;
+
+}
+.e02_logout
+{
+	position:relative;
+	width:55px;
+	float:left;
+	height:32px;
+	left:5px;
+	padding:2px;
+	margin:0px;
+	text-align:left;
+	background-color:#8a8889;
+	line-height:20px;
+	color:#f7f7f7;
+	font-size:1.0em;
+}
+
+.etab_titulo
+{
+    color: white;
+    font-weight: bold;
+    height: 10;
+    background-color:#006699 ; 
+}
+.etab_encabezado
+{
+    color: white;
+    font-weight: bold;
+    height: 10;
+    background-color:#006699 ; 
+}
+.etab_encabezado2
+{
+    color: #000;
+    font-weight: bold;
+    height: 10;
+    background-color:#cccccc ; 
+}
+.etab_encabezado3
+{
+    color: #000;
+    font-weight: bold;
+    height: 10;
+    background-color: yellow; 
+}
+.etab_fondo
+{
+    color: white;
+    font-weight: bold;
+    height: 10;
+    background-color:#006699 ; 
+}
